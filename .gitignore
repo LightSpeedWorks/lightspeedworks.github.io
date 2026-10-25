@@ -1,0 +1,12 @@
+tmp/
+etc/
+logs/
+
+# 先頭 _ のファイル・フォルダは全階層で除外
+_*
+
+.claude/*
+!.claude/settings.json
+!.claude/commands/
+!.claude/agents/
+!.claude/skills/
